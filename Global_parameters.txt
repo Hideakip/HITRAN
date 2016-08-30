@@ -1,0 +1,15 @@
+298.15, #temperature in kelvin
+1.0, #Pressure in atmospheres
+1, #Optical path length in m
+1, #Detector area in square mm
+0.1, #Integration time in s
+DFB, #Source type
+10, #Source power in mW
+2.6,2.8, #Start wavelength, Finish wavelength
+0.001, #Resolution in nm
+7, #Number of points in D* list
+4e7,5e8,1e9,3e9,5e9,6.5e9,3e12, #D* at different wavelengths
+8,6,5,4,3.4,3,1.8, #Wavelenghths for D*
+C:\Users\Hideaki\Dropbox\Scytronix\Software\Hitran\Raw data par\, #Pathname to HITRAN database files   
+gas_list.txt, #Filename of file containing list of gases and concentrations
+1, #Spectra calculation mode 0 stick, 1 Voigt
